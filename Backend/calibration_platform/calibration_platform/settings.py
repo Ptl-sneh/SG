@@ -99,7 +99,7 @@ DATABASES = {
         'NAME': 'postgres',
         'USER': 'postgres',
         'PASSWORD': 'SensorGuard@2',
-        'HOST': 'db.oesqpanthgfdimahsjlc.supabase.co',
+        'HOST': 'postgresql://postgres:SensorGuard@2@aws-0-us-east-1.pooler.supabase.com:5432/postgres',
         'PORT': '5432',
         'OPTIONS': {
             'sslmode': 'require',
